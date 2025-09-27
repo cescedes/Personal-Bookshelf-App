@@ -1,0 +1,23 @@
+:root{
+  --bg: #fff;
+  --muted: #666;
+  --border: #eee;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #111;
+  padding-bottom: 60px;
+}
+input, select, button {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+}
+button {
+  cursor: pointer;
+  background: white;
+}
+h1,h2 { margin: 8px 0; }
